@@ -1,0 +1,23 @@
+/* CSS Document */
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Assigning left:50% and top:50% enables this element to be positioned always in the center of the screen*/
+.container {
+	display : flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background: #f7f7f7;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -250px;
+}
